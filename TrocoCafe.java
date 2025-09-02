@@ -8,12 +8,11 @@ public class TrocoCafe {
         double total = 0.0;
 
         System.out.print("Moedas inseridas: ");
-        String linha = sc.nextLine(); // ler a linha completa permite processar "2.00 + 1.00"
+        String linha = sc.nextLine();
 
-        // dividir pelo símbolo '+' e converter para número
         String[] partes = linha.split("\\+");
         for (String parte : partes) {
-            double moeda = Double.parseDouble(parte.trim()); // trim remove espaços extras
+            double moeda = Double.parseDouble(parte.trim());
 
             if (moeda == 0.50 || moeda == 1.00 || moeda == 2.00) {
                 total += moeda;
