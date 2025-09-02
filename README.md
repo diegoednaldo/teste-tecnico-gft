@@ -1,4 +1,4 @@
-# Desafio Técnico GFT - 02/09/2025
+# Desafio Técnico GFT
 
 Este repositório contém as soluções do teste técnico aplicado pela GFT.
 
